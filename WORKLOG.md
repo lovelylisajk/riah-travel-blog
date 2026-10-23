@@ -28,6 +28,13 @@
 - CLI 설치 후 `.mcp.json`(Claude↔Aside 연결 설정)을 이 폴더에 만듦.
   데스크톱 앱엔 `claude` 명령이 없어서 키트의 `claude mcp add` 대신 이 파일로 연결.
   시험: aside mcp 응답 OK, 도구 4개(browser_profiles, repl, memory_search, exec)
+- ego lite는 안 깖: 맥 전용이고, 윈도우에선 Aside가 같은 역할
+- humanize-korean 스킬 설치 (github epoko77-ai/im-not-ai, v2.3.2)
+  - 권장 방법(`/plugin` 명령)은 이 데스크톱 앱에서 못 써서, 저장소의 `install.sh --claude-only --copy`로 설치
+    (윈도우는 심볼릭 링크가 막혀서 --copy)
+  - ~/.claude/skills 에 humanize-korean·humanize·humanize-scan·humanize-redo, ~/.claude/agents 에 4개
+  - 걸린 점: 이 컴퓨터의 `python3` 은 윈도우 스토어 가짜 실행 파일이라 안 돌아감.
+    `python`(3.12)으로는 스크립트가 정상 동작 → 내 CLAUDE.md 에 "python3 대신 python" 적어 둘 것
 
 ### 키트에서 바꾼 것과 이유
 - (아직 없음)
