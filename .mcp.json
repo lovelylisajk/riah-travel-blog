@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "aside": {
+      "command": "C:\\Users\\맹꽁당\\AppData\\Local\\Aside\\CLI\\current\\aside.exe",
+      "args": ["mcp"]
+    }
+  }
+}

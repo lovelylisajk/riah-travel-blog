@@ -20,6 +20,14 @@
 - Aside CLI 설치 실패: Claude 데스크톱 앱 안에서 돌린 설치는 앱 전용 칸(가상화된 폴더)에
   깔려서 `current\aside.exe`를 못 찾고 멈춤 → 반쯤 깔린 것 지우고(PATH는 안 바뀜),
   **리아 님이 Aside 앱의 개발자 설정에서 직접 CLI를 깔기**로 방향 바꿈
+- Aside 설치 파일에 SmartScreen(윈도우 낯선 앱 경고)이 뜸 → 다운로드 파일 서명을 검사해
+  게시자 AT YOUR SIDE INC·유효 확인 → 「추가 정보 › 실행」으로 설치
+- Aside 첫 화면의 크롬 가져오기가 크롬이 켜져 있어 멈춤 → 건너뛰거나 크롬 닫고 다시
+- Aside AI 구독은 「Claude」(이미 내는 구독 재사용, 추가 0원) 선택
+- 로그인 정리: Aside 계정은 구글로, 네이버는 Aside 브라우저 안에서 따로 (리아가 직접)
+- CLI 설치 후 `.mcp.json`(Claude↔Aside 연결 설정)을 이 폴더에 만듦.
+  데스크톱 앱엔 `claude` 명령이 없어서 키트의 `claude mcp add` 대신 이 파일로 연결.
+  시험: aside mcp 응답 OK, 도구 4개(browser_profiles, repl, memory_search, exec)
 
 ### 키트에서 바꾼 것과 이유
 - (아직 없음)
