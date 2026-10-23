@@ -1,0 +1,12 @@
+# 비밀 정보 (비밀번호, API 키)
+.env*
+!.env.example
+
+# Claude Code 개인 설정
+.claude/settings.local.json
+
+# 임시 파일
+_tmp*/
+*.tmp
+Thumbs.db
+desktop.ini
