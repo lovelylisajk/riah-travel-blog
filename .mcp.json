@@ -3,6 +3,10 @@
     "aside": {
       "command": "C:\\Users\\맹꽁당\\AppData\\Local\\Aside\\CLI\\current\\aside.exe",
       "args": ["mcp"]
+    },
+    "myrealtrip": {
+      "type": "http",
+      "url": "https://mcp-servers.myrealtrip.com/mcp"
     }
   }
 }
