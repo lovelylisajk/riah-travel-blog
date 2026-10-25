@@ -5,6 +5,24 @@
 # Claude Code 개인 설정
 .claude/settings.local.json
 
+# 사진 (개인 정보·얼굴 포함 — 절대 올리지 않음)
+사진/
+**/사진/
+*.zip
+*.jpg
+*.jpeg
+*.JPG
+*.JPEG
+*.png
+*.PNG
+*.heic
+*.HEIC
+*.webp
+*.mp4
+*.MP4
+*.mov
+*.MOV
+
 # 임시 파일
 _tmp*/
 _workspace/
