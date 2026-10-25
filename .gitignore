@@ -7,6 +7,7 @@
 
 # 임시 파일
 _tmp*/
+_workspace/
 *.tmp
 Thumbs.db
 desktop.ini
