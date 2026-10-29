@@ -34,7 +34,7 @@
 
 ## 방콕 호텔 글은 템플릿으로 (2026-10-29부터 기본)
 
-- 방콕 호텔 후기는 **`05_방콕호텔_템플릿.md`** 형식으로 쓴다: 사진→글 교차, `## 카테고리| 세부` 헤더,
+- 방콕 호텔 후기는 **스킬 `.claude/skills/bangkok-hotel-blog/SKILL.md`** 형식으로 쓰고, 발행 설정은 루트 **`publish-settings-guide.md`**(8번 맞춤 먼저)를 따른다: 사진→글 교차, `## 카테고리| 세부` 헤더,
   `![설명](images/NN_키워드.jpg)` + `> 캡션`, `[장소: | ]`, `[제휴링크: | ]` 2곳, ①~⑨ 구조, frontmatter(title·tags·status: draft).
 - 템플릿과 이 키트의 원칙이 부딪히면 **원칙이 이긴다**:
   - 제휴 고지: 템플릿은 하단만 → **맨 위 + 하단 둘 다** (G7)
@@ -98,10 +98,16 @@
 │  ├─ 02_검사관문.md   발행 전 관문 9개
 │  ├─ 04_고침규칙.md   검사에 걸린 것 나누고 고치는 법
 │  └─ README.md
-├─ 글/YYYY-MM-DD_짧은이름/   글 한 편마다 폴더 하나
-│  ├─ 팩트시트.md · 원고_원본.md · 원고.md · 기록.md
+├─ .claude/skills/bangkok-hotel-blog/SKILL.md   방콕 호텔 글 템플릿 (스킬)
+├─ publish-settings-guide.md   발행 설정·검수 흐름 (8번이 이 키트 맞춤)
+├─ hotels/{호텔명}/            호텔 글 작업 폴더
+│  ├─ input.md · 팩트시트.md · 기록.md · 이전 원고들
+│  ├─ images/  · 사진/          (GitHub에 안 올라감)
+├─ output/{호텔명}.md · publish-log.md   완성 글 · 발행 기록
+├─ 글/YYYY-MM-DD_짧은이름/      호텔이 아닌 글 (예: 공항↔파타야 픽업)
 └─ WORKLOG.md         과제용 작업 일지
 ```
+(2026-10-30 `publish-settings-guide.md` 6번 구조로 옮김. 호텔 글의 `글/<폴더>/` 는 `hotels/{호텔명}/` 로 읽는다)
 
 ## 이 컴퓨터 메모 (Windows)
 
